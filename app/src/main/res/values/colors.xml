@@ -7,7 +7,10 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+<<<<<<< HEAD
     <color name="screenBackground">#2196F3</color>
     <color name="buttonBackground">#BBDEFB</color>
     <color name="screenBackground2">#26C6DA</color>
+=======
+>>>>>>> c12b309bb894f92467daa7e35cab1a97c0f868fc
 </resources>
