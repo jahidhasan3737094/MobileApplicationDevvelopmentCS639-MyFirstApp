@@ -1,5 +1,6 @@
 package com.example.myfirstapp;
 
+<<<<<<< HEAD
 import android.os.Bundle;
 
 import com.google.android.material.snackbar.Snackbar;
@@ -72,5 +73,17 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
         return NavigationUI.navigateUp(navController, appBarConfiguration)
                 || super.onSupportNavigateUp();
+=======
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+>>>>>>> c12b309bb894f92467daa7e35cab1a97c0f868fc
     }
 }
